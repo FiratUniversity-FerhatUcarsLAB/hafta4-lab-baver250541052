@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [Baver Katar]
+ * Ogrenci No: [250541052]
+ * Tarih: [06.11.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -9,52 +9,19 @@
  * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
  */
 
-import java.util.Scanner;
-
 public class OgrenciBilgi {
-    public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
+    public static void main(String[] args) throws Exception {
+        String ogrenciAdi="Ahmet";
+        String ogrenciSoyadi="Yilmaz";
+        int ogrenciNumarasi=12345;
+        int yasiniz=20;
+        double GPA =3.45;
+       
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
+        System.out.println("Öğrenci Adı: "+ogrenciAdi);
+        System.out.println("Öğrenci Soyadı: "+ogrenciSoyadi);
+        System.out.println("Öğrenci Numarası: "+ogrenciNumarasi);
         
     }
 }
+
